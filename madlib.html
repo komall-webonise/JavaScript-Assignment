@@ -1,0 +1,35 @@
+<html>
+<head>
+  <title>
+    Madlib Game
+  </title>
+</head>
+<body>
+  <script type="text/javascript">
+
+  var name = prompt("Enter you name","name");
+
+  document.write(" <Bold>"+name+"</Bold><br>");
+  //document.write("Supply 5 words");
+
+  var word_1 = prompt("Enter first word","word_1");
+  var word_2 = prompt("Enter second word","word_2");
+  var word_3 = prompt("Enter third word","word_3");
+  var word_4 = prompt("Enter fourth word","word_4");
+  var word_5 = prompt("Enter fifth word","word_5");
+
+  var colour = prompt("Enter colour or hex value","colour");
+  document.write("<br><h4>####   Welcome to MadLibs Game   ####</h4><br>");
+  document.write("<p>The following words are supplied by user are: </p><br>");
+
+ document.write("<div><p>The first word is "+word_1.fontcolor(colour)+"</p></div>");
+ document.write("<div><p>The second word is "+word_2.fontcolor(colour)+"</p></div>");
+ document.write("<div><p>The third word is "+word_3.fontcolor(colour)+"</p></div>");
+ document.write("<div><p>The fourth word is "+word_4.fontcolor(colour)+"</p></div>");
+ document.write("<div><p>The fifth word is "+word_5.fontcolor(colour)+"</p></div>");
+
+
+
+  </script>
+</body>
+</html>
